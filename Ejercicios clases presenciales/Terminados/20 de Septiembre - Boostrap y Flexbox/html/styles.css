@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+
+     .fuente-titulos{
+         font-family: 'Montserrat', sans-serif;
+     }
+
+    .fuente-parrafos{
+        font-family: 'Lato', sans-serif;
+    }
+
+
+/* Mayusculas */
+h1, h3, .titulo, .botones, .boton a, .location h4, .about-the-web-titulo, .about-freelancer h4{
+    text-transform: uppercase;
+}
+
+/* Texto blanco */
+
+h1,
+header h2,
+.titulo,
+.botones ul li a,
+.menu
+.boton a,
+.about,
+.descripciones,
+.btn-download a,
+.submit,
+.about-freelancer,
+.about-the-web-titulo{
+ color: white
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background: #2C3E50;
+}
+    .menu .botones ul li{
+        list-style: none;
+    }
+    .menu .botones ul li a{
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .boton{
+        
+        text-decoration: none;
+        margin: 0px 0px;
+    }
+    .boton a{
+        background: #18BC9C;
+        padding: 15px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #18BC9C;
+}
+    .imagen{
+        margin-top: 50px;
+        
+    }
+
+    .imagen img{
+        border-radius: 50%;
+
+    }
+    
+    header h1{
+        margin: 20px;
+        text-align: center;
+    }
+
+    header h2{
+        margin: 0px 20px 50px 20px;
+        text-align: center;
+
+    }
+
+
+
+
+.portfolio{
+    display: flex;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+    .portfolio img{
+        margin: 10px;
+        width: 25%;
+    }
+
+
+    .titulo-portfolio{
+        margin: 50px 50px 40px 50px;
+        text-align: center;
+        font-size: 2.5em;
+
+
+    }
+
+
+
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #18BC9C;
+    padding-bottom: 30px;
+    
+}
+    .about h3{
+        font-size: 2.5em;
+    }
+
+    .titulo-about{
+        margin: 50px 50px 40px 50px;
+        text-align: center;
+    }
+
+    .descripciones{
+        display: flex;
+        padding: 0px 150px;
+
+    }
+
+        .descripciones p{
+            font-size: 20px;
+        }
+
+    .descripcion1{
+        padding-right: 30px;
+    }
+
+    .descripcion2{
+        padding-left: 20px;
+    }
+    
+
+
+
+    .btn-download{
+        margin: 50px;
+    }
+    .btn-download a{
+        text-decoration:none;
+        padding: 20px;
+        background: #18BC9C;
+        border-radius: 10px;
+        border: solid 2px white;
+    }
+
+    .btn-download a:hover{
+        text-decoration:none;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        border: solid 2px #18BC9C;
+        color: #18BC9C;
+    }
+
+        
+
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+align-items: center
+;    padding: 50px;
+}
+
+    .contact-me h3{
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        font-size: 1.3em;
+    }
+
+    input{
+        border: none;
+        border-bottom: 1px solid rgb(231, 231, 231);
+        margin-bottom: 40px;
+        height: 30px;
+        font-size: 0.8em;
+    }
+
+    input:hover{
+        border-bottom: 1px solid rgb(32, 175, 96);
+    }
+
+    textarea{
+        border: none;
+        border-bottom: 1px solid rgb(231, 231, 231);
+        margin-bottom: 40px;
+        font-size: 0.8em;
+    }
+
+    textarea:hover{
+        border-bottom: 1px solid rgb(32, 175, 96);
+    }
+
+
+
+    label{
+        margin-top: 10px;
+        color: grey;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .submit{
+        background: #18BC9C;
+        border: #18BC9C solid 2px;
+        padding: 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 80px;
+    }
+
+    .submit:hover{
+        background: rgb(18, 170, 140);
+        color: white;
+        border: rgb(18, 170, 140) solid 2px;
+    }
+
+
+/* CONTACTO */
+
+.contacto{
+    padding: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* align-items: center; */
+    background: #2C3E50;
+}
+
+.contacto h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+    .location{
+        color: white;
+        width: 30%;
+        margin: 0px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+        .location p{
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+
+    .about-the-web{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
+        width: 30%;
+    }
+        .about-the-web-titulo{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.4em;         
+        }
+        .about-the-web .redes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+            .about-the-web a{
+                text-decoration: none;
+                color: white;
+            }
+                .about-the-web a i{
+                    font-size: 2em;
+                    padding: 10px;
+                }
+
+    .about-freelancer{
+        color: white;
+        width: 30%;
+        margin: 0px 25px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }         
+        .about-freelancer .resaltado{
+            color: #18BC9C
+        }        
+        .resaltado, .texto, .location p{
+            font-size: 20px;
+        }
+
+
+/* Media queries */
+
+/* a partir de Laptops */
+@media (min-width: 768px){   
+
+    .titulo-header{
+        font-size: 2em;
+    }
+    .container .menu .boton{
+        display: none;
+    }
+}
+
+/* Media querie especial para las descripciones */
+@media (max-width:1085px){
+
+    .descripciones{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .descripcion1{
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .descripcion2{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+}
+
+
+/* tablets */
+@media (max-width: 768px){
+
+    .titulo-header{
+        font-size: 1.6em;
+    }
+    .botones{
+        display: none;
+    }
+    .portfolio img{
+        margin: 10px;
+        width: 45%;
+    }
+    .descripciones{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;      
+    }
+    .descripciones{
+        display: flex;
+        padding: 0px 10px;
+
+    }
+        .descripcion1{
+            padding-right: 0px;
+            padding-bottom: 20px;
+        }
+        .descripcion2{
+            padding-left: 0px;
+            padding-top: 20px;
+        }
+}
+
+
+/* Media querie especial para clase contacto */
+
+@media (max-width: 722px){
+
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 10px;
+    }    
+    .location, .about-the-web, .about-freelancer{
+        width: 92%;
+        margin: 0px 5px;
+    }
+    .redes{
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+/* Media querie especial para formulario */
+
+@media (max-width: 599px){
+
+    form{    
+        width: 100%;
+    }
+}
+
+/* celulares */
+@media (max-width: 474px){
+
+    .titulo-header{
+        font-size: 1.3em;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: flex-start;
+    }    
+    .boton{
+        display: block;
+        margin: 20px 0px;
+    }
+    .botones{
+        display: none;
+    }
+    header h2{
+        margin: 0px 10px 50px 10px;
+        text-align: center;
+    }
+    .portfolio img{
+        margin: 10px;
+        width: 85%;
+    }
+    .contacto{
+        flex-direction: column;
+    } 
+}
+
+
